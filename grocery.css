@@ -1,0 +1,44 @@
+body{
+	background-image: url("https://ak9.picdn.net/shutterstock/videos/18681329/thumb/1.jpg");
+	background-attachment: fixed;
+}
+
+#container {
+	margin: auto;
+}
+
+td {
+	
+	background-color: lightsteelblue;
+	border: 1px solid lightgrey;
+  	text-align: center;
+  	padding: 10px;
+}
+
+table{
+	width: 70%;
+	margin: auto;
+}
+
+tr:nth-child(even){
+	background-color: rgba(54, 50, 97, 0.1);
+}
+
+tr:nth-child(even){
+	background-color: lightsteelblue;
+}
+
+.tableheader{
+	background-color: blue;
+	height: 30px;
+	color: white;
+}
+
+.tableheader th:nth-child(1){
+	border-top-left-radius: 50px;
+}
+
+.tableheader th:nth-child(4){
+	border-top-right-radius: 50px;
+}
+
